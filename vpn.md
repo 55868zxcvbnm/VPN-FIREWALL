@@ -60,12 +60,12 @@ authentication pre-share
 group 2
 lifetime 86400
 exit
-encryption aes 256 → Usa AES con clave de 256 bits.
-hash sha → Usa SHA para la integridad de los datos.
-authentication pre-share → Usa una clave compartida (pre-shared key).
-group 2 → Define el grupo Diffie-Hellman para el intercambio de claves.
-lifetime 86400 → Tiempo de vida del túnel (24 horas).
 ```
+- encryption aes 256 → Usa AES con clave de 256 bits.
+- hash sha → Usa SHA para la integridad de los datos.
+- authentication pre-share → Usa una clave compartida (pre-shared key).
+- group 2 → Define el grupo Diffie-Hellman para el intercambio de claves.
+- lifetime 86400 → Tiempo de vida del túnel (24 horas).
 - ✅ Este paso debe hacerse en ambos routers.
 
 ## Paso 4: Configurar la Clave Precompartida
